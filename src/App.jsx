@@ -17,6 +17,7 @@ function App() {
 
   const money = new Intl.NumberFormat(undefined, {
     style: 'currency',
+    notation: 'compact',
     currency: valute,
   })
 

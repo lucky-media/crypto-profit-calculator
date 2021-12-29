@@ -1,4 +1,4 @@
-export default function Input({ label, name, type = 'text', onChange }) {
+export default function Input({ label, name, type = 'number', onChange }) {
   return (
     <div className="flex flex-col">
       <label className="mb-2 text-white text-opacity-70" htmlFor={name}>{label}</label>

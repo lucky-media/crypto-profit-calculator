@@ -1,4 +1,4 @@
-export default function InputGroup({ label, valute, onChange, placeholder, name }) {
+export default function InputGroup({ label, valute, onChange, type = 'number', placeholder, name }) {
   return (
     <div>
       <label
@@ -17,7 +17,7 @@ export default function InputGroup({ label, valute, onChange, placeholder, name 
           onChange={onChange}
           name={name}
           placeholder={placeholder}
-          type="text"
+          type={type}
           className="block w-full pl-12 pr-12 bg-white rounded-md bg-opacity-70 focus:ring-2 focus:ring-purple-600"
         />
       </div>
