@@ -32,7 +32,7 @@ function App() {
     <div className="flex flex-col min-h-screen bg-gradient-to-br from-[#0f0c29] via-[#302b63] to-[#24243e]">
       <div className="container px-5 py-8 mx-auto">
         <div className="flex flex-row items-center justify-between">
-          <h1 className="text-4xl font-bold text-center text-white">
+          <h1 className="text-2xl font-bold text-center text-white md:text-4xl">
             Kripto Kalkulator
           </h1>
 
